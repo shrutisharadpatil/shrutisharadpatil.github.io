@@ -163,7 +163,8 @@ max-width:520px;
 .section{
 max-width:850px;
 margin:auto;
-padding:100px 20px;
+padding:80px 20px;
+scroll-margin-top:100px;
 }
 
 .section h2{
@@ -209,7 +210,10 @@ height:200px;
 .nav-right{
 display:none;
 }
-
+.section{
+padding:60px 20px;
+}
+  
 }
 
 /* ========================= */
@@ -345,4 +349,8 @@ width:80%;
 transform:none;
 }
 
+}
+
+html, body{
+overflow-x:hidden;
 }
